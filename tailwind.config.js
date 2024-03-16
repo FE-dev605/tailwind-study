@@ -1,18 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      fontFamily:{
-        "merienda":["Merienda"],
-        "montserrat":["Montserrat"],
-        "poppins":["Poppins"]
-      } 
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        merienda: ["Merienda", "cursive"],
+      },
     },
   },
   plugins: [],
-}
-
+};
